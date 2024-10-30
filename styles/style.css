@@ -121,7 +121,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 962px) {
+@media screen and (min-width: 600px) {
   body {
     background: url(../images/bg-pattern-top-desktop.svg),
       url(../images/bg-pattern-bottom-desktop.svg);
