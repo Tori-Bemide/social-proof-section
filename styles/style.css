@@ -121,15 +121,14 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 962px) {
   body {
     background: url(../images/bg-pattern-top-desktop.svg),
       url(../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat no-repeat;
     background-position: -6% -5%, 120% 80%;
-    
   }
-  .wrapper{
+  .wrapper {
     margin-top: 5rem;
   }
   .top {
@@ -180,7 +179,7 @@ h1 {
     margin: 0;
   }
 
-  .reviews{
+  .reviews {
     margin-top: 1rem;
     margin-bottom: 0;
     display: flex;
@@ -188,16 +187,16 @@ h1 {
     align-items: center;
   }
 
-  .review-card{
+  .review-card {
     flex: 0 0 calc(33.33% - 2rem);
     margin-bottom: 0;
     border-radius: 0.5rem;
   }
 
-  .review-card:nth-child(2){
+  .review-card:nth-child(2) {
     margin-top: 2.5rem;
   }
-  .review-card:nth-child(3){
+  .review-card:nth-child(3) {
     margin-top: 5rem;
   }
 }
